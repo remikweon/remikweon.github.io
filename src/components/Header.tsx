@@ -4,14 +4,6 @@ import { ExternalLink } from "lucide-react";
 const Header = () => {
   const blogUrl = "https://your-blog-url.com";
 
-  const scrollToProjects = () => {
-    if (window.location.hash === "#/") {
-      document.getElementById("projects")?.scrollIntoView({
-        behavior: "smooth",
-      });
-    }
-  };
-
   return (
     <header className="sticky top-0 z-50 w-full border-b border-gray-100 bg-white/90 backdrop-blur-md">
       <nav className="mx-auto flex h-16 max-w-6xl items-center justify-end px-6">
