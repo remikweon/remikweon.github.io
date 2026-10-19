@@ -4,7 +4,7 @@ const Intro = () => {
   return (
     <section
       id="intro"
-      className="mx-auto flex min-h-[85vh] max-w-6xl flex-col-reverse items-center justify-center gap-12 px-6 py-20 md:flex-row md:gap-20"
+      className="mx-auto flex min-h-[85vh] max-w-6xl flex-col-reverse items-center justify-between gap-12 px-6 py-20 md:flex-row md:gap-20"
     >
       {/* Left: Introduction */}
       <div className="text-center md:text-left">

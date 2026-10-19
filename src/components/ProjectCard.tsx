@@ -14,9 +14,9 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
     >
       <div className="aspect-[16/10] overflow-hidden bg-gray-100">
         <img
-          src={project.image}
-          alt={project.title}
-          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+        src={project.thumbnail}
+        alt={project.title}
+        className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
         />
       </div>
 

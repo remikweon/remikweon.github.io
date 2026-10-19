@@ -33,7 +33,7 @@ const ProjectCarousel = () => {
   }, [emblaApi, updateButtons]);
 
   return (
-    <section id="projects" className="mx-auto max-w-6xl px-6 py-20">
+    <section id="projects" className="mx-auto max-w-6xl px-6">
       <div className="mb-8 flex items-end justify-between">
         <div>
           <h2 className="text-3xl font-bold tracking-tight text-gray-900">Featured Projects</h2>
