@@ -25,16 +25,7 @@ const Header = () => {
           >
             Resume
           </a>
-
-          <a
-            href={blogUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-1 text-sm font-medium text-gray-600 hover:text-gray-900"
-          >
-            Blog
-            <ExternalLink size={14} />
-          </a>
+          <Link to="/blog" className="text-sm font-medium text-gray-600 transition-colors hover:text-gray-900">Blog</Link>
         </div>
       </nav>
     </header>

@@ -1,1 +1,64 @@
 @import "tailwindcss";
+
+
+@import "tailwindcss";
+
+.blog-content {
+  color: #374151;
+  font-size: 1rem;
+  line-height: 1.9;
+}
+
+.blog-content h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  color: #111827;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.blog-content h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  color: #111827;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.blog-content p {
+  margin-bottom: 1.5rem;
+}
+
+.blog-content img {
+  width: 100%;
+  height: auto;
+  margin: 2rem 0;
+  border-radius: 0.75rem;
+}
+
+.blog-content ul,
+.blog-content ol {
+  margin: 1.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.blog-content ul {
+  list-style-type: disc;
+}
+
+.blog-content ol {
+  list-style-type: decimal;
+}
+
+.blog-content pre {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  background: #f3f4f6;
+}
+
+.blog-content code {
+  font-family: monospace;
+}
+
