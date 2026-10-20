@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
-import { ExternalLink } from "lucide-react";
 
 const Header = () => {
-  const blogUrl = "https://your-blog-url.com";
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-gray-100 bg-white/90 backdrop-blur-md">
