@@ -23,7 +23,7 @@ export const projects: Project[] = [
     title: "Scene Recognition with Deep Learning",
     description:
       "Developing and evaluating convolutional neural networks for scene classification, including CNN optimization, ResNet-based transfer learning, and multi-label scene attribute prediction.",
-    thumbnail: `${base}projects/cv/project3/resnet_confusion_matrix.png`,
+    thumbnail: `${base}projects/cv/project3/resnet_misclassified.png`,
     tags: [
       "Python",
       "PyTorch",
